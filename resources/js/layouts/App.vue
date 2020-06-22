@@ -1,7 +1,12 @@
 <template>
-    <div>
-        <a href="#" class="bg-blue-300 text-lg">
-            Tesaweawe awe 23 aweawe
-        </a>
+    <div class="page">
+        <Home />
     </div>
 </template>
+
+<script>
+import Home from "../views/Home"
+export default {
+    components: { Home }
+}
+</script>
